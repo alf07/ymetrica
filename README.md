@@ -1,5 +1,5 @@
 # ymetrica
-Цели яндекс метрики м все вообще связано с ней
+Цели яндекс метрики
 
 1. цель на sabmit вешается на тег form
 onSubmit="ym('XXXXXX','reachGoal', 'TARGET_NAME');"

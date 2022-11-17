@@ -12,8 +12,11 @@ onclick="ym(XXXXXX, 'reachGoal', 'opt_form_first_screen_sent'); return true;"
 
 <code>
 <script>
+
 	var i = 0;
+
 	var menuli = $('.nav__sub li');
+	
 	$.each(menuli, function (index, value) {
 		i++;
 		$(value).addClass("metric"+i);

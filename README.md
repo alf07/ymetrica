@@ -2,11 +2,14 @@
 Цели яндекс метрики
 
 1. цель на sabmit вешается на тег form
+<code>
 onSubmit="ym('XXXXXX','reachGoal', 'TARGET_NAME');"
+</code>
 
 2. цель на click 
+<code>
 onclick="ym(XXXXXX, 'reachGoal', 'opt_form_first_screen_sent'); return true;"
-
+</code>
 
 3. Цель на меню. Считает пункты меню, добавляет к ним классы и по клику отрабатывает цель
 

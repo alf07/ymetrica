@@ -9,7 +9,8 @@ onclick="ym(XXXXXX, 'reachGoal', 'opt_form_first_screen_sent'); return true;"
 
 
 3. Цель на меню. Считает пункты меню, добавляет к ним классы и по клику отрабатывает цель
-<script>
+
+
 	var i = 0;
 	var menuli = $('.nav__sub li');
 	$.each(menuli, function (index, value) {
@@ -35,4 +36,4 @@ onclick="ym(XXXXXX, 'reachGoal', 'opt_form_first_screen_sent'); return true;"
 	$('metric6').on( "click", function() {
 	  ym(XXXXXXXX, 'reachGoal', '2_menu_6_button'); return true;
 	});
-</script>
+

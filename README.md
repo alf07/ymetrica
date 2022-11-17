@@ -9,11 +9,9 @@
 <code>onclick="ym(XXXXXX, 'reachGoal', 'opt_form_first_screen_sent'); return true;"</code>
 
 
-3. Цель на меню. Считает пункты меню, добавляет к ним классы и по клику отрабатывает цель
+3. Цель на меню. Считает пункты меню, добавляет к ним классы и по клику отрабатывает цель (jquery)
 
 <code>
-
-
 	var i = 0;
 
 	var menuli = $('.nav__sub li');
@@ -41,6 +39,4 @@
 	$('metric6').on( "click", function() {
 	  ym(43176784, 'reachGoal', '2_menu_6_button'); return true;
 	});
-
-
 </code>

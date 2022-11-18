@@ -45,7 +45,7 @@
 
 4. Цель на заполнение полей. Проверяет заполнены ли поля формы и коректен ли email и отправляет цель (jquery)
 
-<code>
+
 
 $(document).ready(function(){
 
@@ -70,4 +70,4 @@ $(document).ready(function(){
       e.preventDefault();
    });
 });
-</code>
+

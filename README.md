@@ -6,6 +6,7 @@
 
 
 2. цель на click 
+
 <code>onclick="ym(XXXXXX, 'reachGoal', 'opt_form_first_screen_sent'); return true;"</code>
 
 
@@ -43,6 +44,7 @@
 </code>
 
 4. Цель на заполнение полей. Проверяет заполнены ли поля формы и коректен ли email и отправляет цель (jquery)
+
 <code>
 $(document).ready(function(){
    $(document).on('change','.bx-soa-customer input',function(e){

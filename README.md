@@ -41,3 +41,26 @@
 	  ym(43176784, 'reachGoal', '2_menu_6_button'); return true;
 	});
 </code>
+
+4. Цель на заполнение полей. Проверяет заполнены ли поля формы и коректен ли email и отправляет цель (jquery)
+<code>
+$(document).ready(function(){
+   $(document).on('change','.bx-soa-customer input',function(e){
+        var tel = $('#soa-property-3').val();
+		var email = $('#soa-property-2').val();
+		var adress = $('#soa-property-7').val();
+		
+		if((tel != "") && (email != "") && (adress != "")){
+
+			var re_email = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+			
+			if(re_email.test(email) != false) {
+				console.log("ок");
+				ym(43176784, 'reachGoal', 'completed_form'); return true;
+			}
+		}
+		
+      e.preventDefault();
+   });
+});
+</code>

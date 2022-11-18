@@ -52,7 +52,6 @@ $(document).ready(function(){
         var tel = $('#soa-property-3').val();
 		var email = $('#soa-property-2').val();
 		var adress = $('#soa-property-7').val();
-		
 		if((tel != "") && (email != "") && (adress != "")){
 
 			var re_email = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;

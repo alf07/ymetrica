@@ -48,9 +48,7 @@
 <code>
 
 $(document).ready(function(){
-
    $(document).on('change','.bx-soa-customer input',function(e){
-	
         var tel = $('#soa-property-3').val();
 		var email = $('#soa-property-2').val();
 		var adress = $('#soa-property-7').val();

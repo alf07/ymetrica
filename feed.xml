@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-20 14:00">
+<yml_catalog date="2026-07-21 12:00">
     <shop>
         <name>Академия косметологии</name>
         <company>ООО "Академия косметологии"</company>
@@ -11,10 +11,6 @@
         <currencies>
             <currency id="RUR" rate="1"/>
         </currencies>
-
-        <categories>
-            <category id="184">Обучение</category>
-        </categories>
 
         <offers>
             <offer id="cosmetologist_2026" available="true">
@@ -53,13 +49,14 @@
                     <p><strong>Итог:</strong> Сертификат установленного образца по окончании.</p>
                 ]]></description>
 
+                <!-- Обязательные параметры для категории "Образование" -->
                 <param name="Формат обучения">Онлайн (Дистанционный)</param>
                 <param name="Длительность">5 месяцев</param>
-                <param name="Тип обучения">Профессиональная переподготовка</param>
                 <param name="Документ об окончании">Сертификат</param>
+                
+                <!-- Дополнительные (необязательные) параметры -->
+                <param name="Тип обучения">Профессиональная переподготовка</param>
                 <param name="Рассрочка">До 6 месяцев</param>
-                <param name="Количество модулей">20</param>
-                <param name="Уровень сложности">С нуля</param>
             </offer>
         </offers>
     </shop>

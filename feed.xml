@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-22 16:00">
+<yml_catalog date="2026-07-22 17:30">
     <shop>
         <name>Академия косметологии</name>
         <company>ООО "Академия косметологии"</company>
@@ -13,9 +13,9 @@
             <currency id="RUR" rate="1"/>
         </currencies>
 
-        <!-- Объявляем категорию, чтобы избежать ошибки -->
+        <!-- Категория из дерева Яндекса: 1000 — Профессиональная переподготовка -->
         <categories>
-            <category id="184">Обучение</category>
+            <category id="1000">Профессиональная переподготовка</category>
         </categories>
 
         <sets>
@@ -29,7 +29,7 @@
             <offer id="cosmetologist_2026" available="true">
                 <name>Косметик-эстетист. Полный курс профессиональной переподготовки</name>
                 <url>https://xn----ctbtpzfhlt1d.xn--p1ai/education</url>
-                <categoryId>184</categoryId>
+                <categoryId>1000</categoryId>
                 <set-ids>profession</set-ids>
                 
                 <!-- Общая цена курса -->

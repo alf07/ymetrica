@@ -20,22 +20,22 @@
         <sets>
             <set id="profession">
                 <name>Профессиональные курсы</name>
-                <url>https://xn----ctbtpzfhlt1d.xn--p1ai/education</url>
+                <url>https://xn----7sbab6apiegpm.xn--p1ai/cosmetologist</url>
             </set>
         </sets>
 
         <offers>
             <offer id="cosmetologist_2026" available="true">
                 <name>Косметик-эстетист. Полный курс профессиональной переподготовки</name>
-                <url>https://xn----ctbtpzfhlt1d.xn--p1ai/education</url>
+                <url>https://xn----7sbab6apiegpm.xn--p1ai/cosmetologist</url>
                 <categoryId>1000</categoryId>
                 <set-ids>profession</set-ids>
                 
                 <price>30000</price>
                 <currencyId>RUR</currencyId>
 
-                <param name="Ближайшая дата">2026-09-01</param>
-                <param name="Гибкие даты">true</param>
+                <!--<param name="Ближайшая дата">2026-09-01</param>
+                <param name="Гибкие даты">true</param>-->
                 <param name="Продолжительность" unit="месяц">5</param>
 
                 <param name="План" order="1" unit="Модуль 1" hours="8">
@@ -99,7 +99,7 @@
                     <![CDATA[ Типы клиентов. Управление эмоциями. Эмпатия. Работа с конфликтами. Закрытие визита. ]]>
                 </param>
 
-                <param name="Формат обучения">Самостоятельно с наставником</param>
+                <param name="Формат обучения">Самостоятельно</param>
                 <param name="Есть вебинары">true</param>
                 <param name="Есть видеоуроки">true</param>
                 <param name="Есть текстовые уроки">true</param>
